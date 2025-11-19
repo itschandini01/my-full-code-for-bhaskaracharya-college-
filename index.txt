@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bhaskaracharya College of Applied Sciences (BCAS)</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background: #1e3d59;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.2rem;
+      margin-bottom: 5px;
+    }
+
+    nav {
+      background: #16324f;
+      padding: 10px 0;
+    }
+
+    nav ul {
+      list-style: none;
+      text-align: center;
+    }
+
+    nav ul li {
+      display: inline;
+      margin: 0 15px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-size: 1.1rem;
+      font-weight: bold;
+    }
+
+    .container {
+      width: 85%;
+      margin: 20px auto;
+    }
+
+    .hero-img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      margin-bottom: 25px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    }
+
+    section {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      margin-bottom: 25px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    }
+
+    section h2 {
+      margin-bottom: 15px;
+      color: #1e3d59;
+    }
+
+    .course-list ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .course-list li {
+      background: #e8f0fe;
+      padding: 10px;
+      margin-bottom: 8px;
+      border-radius: 5px;
+      font-size: 1.05rem;
+    }
+
+    footer {
+      background: #1e3d59;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Bhaskaracharya College of Applied Sciences (BCAS)</h1>
+    <p>Affiliated to University of Delhi</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#courses">Courses</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div class="container">
+
+    <!-- Selected Third Image -->
+    <img 
+      src="https://images.openai.com/static-rsc-1/XADoKSiMLDb4GbHFwvcUte-qvColh1mD_zz8X4W3GxW5Y6jSrNjeVj5sRaJYkLIr4Nn7PkpRDhiUx76YuMGA5gD2GQSfmVdtTBUxJ2AJ_1O5KoPN2Bsrvb8OR3nbl4OSAPNpnJGhSWROPmQH5UkXMg"
+      class="hero-img"
+      alt="Bhaskaracharya College Campus">
+
+    <!-- About Section -->
+    <section id="about">
+      <h2>About the College</h2>
+      <p>
+        Bhaskaracharya College of Applied Sciences (BCAS) is a prestigious institution 
+        under the University of Delhi. Established in 1995, the college offers several 
+        applied science and technology-oriented undergraduate programs. Located in 
+        Dwarka, New Delhi, BCAS has modern laboratories, an excellent academic 
+        environment, and highly qualified faculty.
+      </p>
+    </section>
+
+    <!-- Courses Section -->
+    <section id="courses">
+      <h2>Courses Offered</h2>
+      <div class="course-list">
+        <ul>
+          <li>B.Sc (Hons) Biomedical Science</li>
+          <li>B.Sc (Hons) Computer Science</li>
+          <li>B.Sc (Hons) Electronics Science</li>
+          <li>B.Sc (Hons) Food Technology</li>
+          <li>B.Sc (Hons) Polymer Science</li>
+          <li>B.Sc (Hons) Physics</li>
+          <li>B.Sc (Hons) Botany</li>
+          <li>B.Sc (Hons) Zoology</li>
+          <li>B.Sc (Hons) Microbiology</li>
+          <li>B.Sc (Hons) Instrumentation</li>
+          <li>B.Sc (Hons) Chemistry</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <h2>Contact Details</h2>
+      <p><strong>Address:</strong> Sector 2, Dwarka, New Delhi – 110075</p>
+      <p><strong>Phone:</strong> 011-25087597 / 011-25081015</p>
+      <p><strong>Email:</strong> <a href="mailto:bhaskaracharya.college@bcas.du.ac.in">bhaskaracharya.college@bcas.du.ac.in</a></p>
+      <p><strong>Official Website:</strong> <a href="https://bcas.du.ac.in" target="_blank">bcas.du.ac.in</a></p>
+    </section>
+
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Bhaskaracharya College of Applied Sciences | University of Delhi</p>
+  </footer>
+
+</body>
+</html>
